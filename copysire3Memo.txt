@@ -1,0 +1,17 @@
+https://www.youtube.com/watch?v=oGV1dmomUP0
+
+★お手本サイトURL
+https://webgodweb.com/ex/responsive/
+
+★お手本サイト ファイル一式ダウンロードはこちらから
+https://webgodweb.com/ex/responsive.zip
+（クリックでダウンロードされます）
+
+★動画内で模写したソースコードの確認はこちら
+https://webgodweb.com/reproduction/pa...
+
+★「HTML5 Doctor Reset CSS」
+http://html5doctor.com/html-5-reset-s...
+
+
+--- 「模写コーディングをやってみた 実践編」シリーズ ---
