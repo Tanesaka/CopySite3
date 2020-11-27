@@ -34,6 +34,10 @@ nav ul {
     list-style:none;
 }
 
+ul {
+    list-style:none;
+}
+
 blockquote, q {
     quotes:none;
 }
@@ -97,3 +101,276 @@ input, select {
 
 /* ここから */
 
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;;
+  color: #54514c;
+}
+
+header {
+  position: relative;
+  height: 60px;
+}
+
+header .logo {
+  position: absolute;
+  top: 17px;
+  left: 15px;
+  width: 200px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo img {
+  width: 100%;
+}
+
+header nav {
+  display: none;
+}
+
+
+.key_visual
+{
+  width: 100%;
+}
+.key_visual img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+main {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.information ul li {
+  padding: 10px;
+}
+
+.information ul li:nth-child(even) {
+  background-color: #F5F3EF;
+}
+
+.information ul li p {
+  font-size: 14px;
+}
+.information ul li p::before {
+  content: "▶";
+  padding-right:5px;
+}
+
+.information ul li time {
+  font-size: 12px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+article {
+  margin-bottom: 25px;
+}
+
+.container {
+  padding:10px;
+}
+
+main h2 {
+  height: 40px;
+  padding-left: 15px;
+  line-height: 40px;
+  background-color: #B99565;
+  color: white;
+  font-weight: normal;
+}
+
+.gourmet article figure img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.area li{
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #B99565;
+  border-radius: 4px;
+  color: white;
+  font-size: 10px;
+}
+
+.area li + li {
+  margin: 0 5px;
+}
+
+.box_ttl {
+  padding: 5px 0 5px 10px;
+  border-left: 4px solid #412806;
+}
+
+.box_ttl h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+figure {
+  margin-bottom: 10px;
+}
+
+article p {
+  font-size: 14px;
+  line-height: 2em;
+}
+
+article p::before {
+  content: "-";
+  padding: 0 10px;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+}
+
+footer ul {
+  background-color: #54514C;
+  padding: 30px 0;
+}
+
+footer ul li {
+  width: 280px;
+  height: 30px;
+  margin: 0 auto;
+  line-height: 30px;
+  border: 1px solid white;
+  border-radius: 2px;
+  font-size: 15px;
+}
+
+footer ul li:hover {
+  background-color: white;
+  transition: 0.3s;
+}
+
+footer ul li + li {
+  margin-top: 5px;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+footer ul li a:hover {
+  color: rgb(87, 87, 87);
+  transition: 0.3s;
+}
+
+footer .logo {
+  width: 160px;
+  margin: 15px 0 10px;
+}
+
+footer p small {
+  font-size: 10px;
+  height: 30px;
+  line-height: 30px;
+}
+
+@media (min-width: 768px) {
+  header {
+    height: 80px;
+  }
+  header .logo {
+    left: 25px;
+    top: 24px;
+    width: 250px;
+  }
+  header nav {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 21px;
+  }
+
+   nav ul {
+     padding-right: 20px;
+   }
+
+  nav ul li {
+    display: inline-block;
+    height: 35px;
+    font-size: 17px;
+    line-height: 35px;
+    border-radius: 2px;
+  }
+
+  nav ul li:hover {
+    background-color: #B99565;
+    transition: 0.3s;
+  }
+
+
+  nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+    /* paddingはaタグyに */
+    padding: 0 10px;
+  }
+    nav ul li:hover a {
+    color: white;
+    transition: 0.3s;
+  }
+
+  .key_visual {
+    margin-bottom: 30px;
+  }
+
+  .information {
+    margin-bottom: 50px;
+  }
+
+  .information ul li p {
+    display: inline-block;
+  }
+  .information ul li p::before {
+  content: "▶";
+  padding-right:10px;
+  padding-left: 10px;
+}
+
+.information ul li time {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container article {
+  width: calc(50% - 5px);
+}
+
+
+
+  footer ul li {
+    display: inline-block;
+    width: 120px;
+    height: 33px;
+  }
+
+  footer ul li + li {
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .countainer {
+  padding: 10px 0;
+}
+}
